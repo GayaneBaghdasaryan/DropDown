@@ -1,0 +1,30 @@
+.clothing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.clth-item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(221, 221, 239, 0.566);
+}
+.clth-info{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid gray;
+    background-color: rgba(255, 228, 196, 0.605);
+}
+.clth-info img{
+    width: 60px;
+    height: 60px;
+}
